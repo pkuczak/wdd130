@@ -1,0 +1,50 @@
+body {
+    background-color: palevioletred;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin: 40px;
+}
+h1:hover{
+    color: black;
+}
+section p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+h3{
+    color: white;
+    text-align: center;
+}
+ol{
+    font-weight: bold;
+    margin: 20px auto;
+    width: 450px;
+    line-height:2em
+}
+img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+h2 {
+    color: white;
+    width: 250px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 30px;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    width: 300px;
+    margin: 0 auto;
+}
