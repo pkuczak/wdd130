@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&family=Short+Stack&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +8,7 @@ nav a{
     text-align: center;
     color: #3A321A;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,6 +25,10 @@ main section{
 }
 body{
     background-color: #FBFDFD;
+    font-family: "Mukta", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #FBFDFD;
@@ -34,6 +41,10 @@ nav a:hover{
     background-color: #964600;
     color: #FBFDFD;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #3A321A;
@@ -41,21 +52,31 @@ nav a:hover{
 }
 .msg {
     background-color: #99DEE1;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: #3A321A;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: #3A321A;
+    font-family: "Short Stack", 'Courier New', monospace;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #3A321A;
 }
 .msg h2{
-    color: #3A321A
+    color: #3A321A;
+    font-family: "Short Stack", 'Courier New', monospace;
 }
 .msg p{
-    color: #3A321A
+    color: #3A321A;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer p{
     color: #FBFDFD;
@@ -74,4 +95,25 @@ footer a:hover{
 }
 #hero-img{
     width: 100%;
+}
+h2{
+    margin: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.icon{
+    padding-top: 10px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #964600;
+}
+main section img{
+    box-sizing: border-box;
 }
