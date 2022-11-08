@@ -179,6 +179,60 @@ nav{
     opacity: .6;
     transform: scale(1.1);
 }
+.faq-title{
+    color: #3A321A;
+    font-family: "Short Stack", 'Courier New', monospace;
+    font-size: 2em;
+    margin-top: 2em;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 50px;
+}
+.faq-accordian{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 75%;
+    margin: 2em 0;
+}
+.faq-accordian .stack{
+    padding: 0 50px 30px;
+    border-radius: .3em;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
+    position: relative;
+    background: #3A321A;
+    color: #FBFDFD;
+}
+.stack label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.stack label::after{
+    content: "+";
+    position: absolute;
+    right: 30px;
+    font-size: 2em;
+}
+.stack input:checked ~ label::after{
+    transform: rotate(135deg);
+    transition: .5s;
+}
+.stack input{
+    appearance: none;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+.stack input:checked ~ .answer{
+    max-height: 100vh;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
