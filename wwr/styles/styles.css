@@ -22,7 +22,7 @@ main section{
 }
 #background{
     height: 725px;
-    background-color: #99DEE1;
+    background-color: #D9CDAB;
     grid-column: 1/11;
     grid-row: 4/9;
 }
@@ -98,7 +98,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    color: #99DEE1;
+    color: #D9CDAB;
     text-decoration: underline;
 }
 .logo, .icon{
@@ -203,8 +203,8 @@ nav{
     border-radius: .3em;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     position: relative;
-    background: #3A321A;
-    color: #FBFDFD;
+    background: #D9CDAB;
+    color: #3A321A;
 }
 .stack label{
     display: flex;
