@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cinzel:wght@500&display=swap');
+
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#opening{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+}
+
+#hero img{
+    grid-column: 1/13;
+    grid-row: 1/15;
+}
