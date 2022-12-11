@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cinzel:wght@500&display=swap');
 
 #content{
-  max-width: 1920px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 footer h1{
@@ -109,8 +109,8 @@ h2{
   display: grid;
   grid-template-columns: 1fr 1fr;
   border: 10px solid #C0B7B1;
-  width: 70%;
-  min-width: 1000px;
+  width: 80%;
+  min-width: 1050px;
   margin: 50px auto 75px;
   text-align: center;
 }
@@ -120,9 +120,11 @@ h2{
 }
 #form-box h2{
   font-size: 2em;
+  margin: 50px 15px;
 }
 address{
-  margin: 75px auto;
+  margin: 50px 15px;
+  font-style: normal;
 }
 address p{
   font-size: 1.25em;
@@ -134,6 +136,65 @@ address p a{
 .events-img{
   display: block;
   width: 100%;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+form li + li {
+  margin-top: 1em;
+}
+label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 75px;
+  text-align: right;
+  font-size: 1.25em;
+  font-family: Assistant;
+}
+input,
+textarea {
+/* To make sure that all text fields have the same font settings
+    By default, textareas have a monospace font */
+  font-size: 1.25em;
+
+/* Uniform text field size */
+  width: 70%;
+  box-sizing: border-box;
+
+/* Match form field borders */
+  border: 2px solid #C69C72;
+}
+textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+  
+  /* Provide space to type some text */
+  height: 10em;
+}
+.button-box{
+  text-align: right;
+  padding-right: 70px;
+}
+.button {
+  /* Align buttons with the text fields */
+  /* padding-top: 20px;
+  padding-right: 65px; same size as the label elements */
+  text-align: right;
+  background-color: #C69C72;
+  border: none;
+  color: #433E3F;
+  padding: 10px 26px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button:hover{
+  color: white;
 }
 
 
