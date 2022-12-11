@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cinzel:wght@500&display=swap');
 
 #content{
-    max-width: 1920px;
-    margin: 0 auto;
+  max-width: 1920px;
+  margin: 0 auto;
 }
-h1, h2, h3, a{
+footer h1{
+  font-family: Cinzel;
+  color: white;
+}
+h2, h3{
   font-family: Cinzel;
 }
 body{
@@ -35,8 +39,11 @@ footer{
 footer a{
   text-align: center;
   text-decoration: none;
-  font-family: Cinzel;
+  /* font-family: Cinzel; */
   color: white;
+}
+footer a:hover{
+  color: #C69C72;
 }
 footer p{
   color: white;
@@ -46,14 +53,89 @@ nav a{
   text-decoration: none;
   font-family: Cinzel;
   color: white;
-  padding: 40px;
+  padding: 10px 50px;
   font-size: 1.5em;
+}
+nav a:hover{
+  background-color: #C0B7B1;
+  color: black;
 }
 .social img{
   width: 60px;
   text-align: center;
-  display: fle;
 }
+#about-container{
+  display: flex;
+  margin: 150px auto;
+}
+#about-img{
+  width: 50%;
+  margin-right: 5%;
+  text-align: center;
+}
+#about-me{
+  width: 50%;
+  margin-left: 5%;
+  padding: 0 10%;
+}
+h2{
+  color: #8E6E53;
+  font-family: Cinzel;
+}
+.book-button{
+  text-align: center;
+  margin-top: 75px;
+}
+.book, .see-more{
+  background-color: #C69C72;
+  color: #433E3F;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
+}
+.book:hover, .see-more:hover{
+  color: white;
+}
+#contact-container h1{
+  color: #8E6E53;
+  font-size: 2.5em;
+  margin: 80px auto 50px;
+  text-align: center;
+  font-family: Cinzel;
+}
+#contact-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 10px solid #C0B7B1;
+  width: 70%;
+  min-width: 1000px;
+  margin: 50px auto 75px;
+  text-align: center;
+}
+#form-box{
+  text-align: left;
+  margin: 50px;
+}
+#form-box h2{
+  font-size: 2em;
+}
+address{
+  margin: 75px auto;
+}
+address p{
+  font-size: 1.25em;
+}
+address p a{
+  text-decoration: none;
+  color: black;
+}
+.events-img{
+  display: block;
+  width: 100%;
+}
+
 
 
 
@@ -101,7 +183,7 @@ nav a{
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: white;
   font-family: Assistant;
   font-size: 20px;
   padding: 8px 12px;

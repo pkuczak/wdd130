@@ -19,46 +19,47 @@
                 <a href="contactus.html">Contact Us</a>
             </nav>
         </header>
-        <main>
+        <main id="contact-container">
             <h1>Contact Us</h1>
-            <section>
-                <h2>Send us a message!</h2>
-                <address>
-                    <p>123 Business Address</p>
-                    <p>Toronto, ON M5J 2T9</p>
-                    <a href="tel:+11234567890">123-456-7890</a>
-                    <a href="mailto:contactus@kuczcostudios.ca">contactus@kuczcostudios.ca</a>
-                </address>
-                <div id="feedback"></div>
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                        <li>
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="user_name">
-                        </li>
-                        <li>
-                        <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email">
-                        </li>
-                        <li>
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>
-                        </li>
-                        <li class="button">
-                            <button type="submit">Send</button>
-                        </li>
-                    </ul>
-                </form>
-            </section>
-            <div>
-                <img src="images/events-op.jpg" alt="spread of desserts">
+            <div id="contact-box">
+                <section id="form-box">
+                    <h2>Send us a message!</h2>
+                    <address>
+                        <p>123 Business Address</p>
+                        <p>Toronto, ON M5J 2T9</p>
+                        <p><a href="tel:+11234567890">123-456-7890</a></p>
+                        <p><a href="mailto:contactus@kuczcostudios.ca">contactus@kuczcostudios.ca</a></p>
+                    </address>
+                    <div id="feedback"></div>
+                    <form action="/my-handling-form-page" method="post">
+                        <ul>
+                            <li>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="user_name">
+                            </li>
+                            <li>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="user_email">
+                            </li>
+                            <li>
+                            <label for="msg">Message:</label>
+                            <textarea id="msg" name="user_message"></textarea>
+                            </li>
+                            <li class="button">
+                                <button type="submit">Send</button>
+                            </li>
+                        </ul>
+                    </form>
+                </section>
+                <div id="contact-img-box">
+                    <img class="events-img" src="images/events-op.jpg" alt="spread of desserts">
+                </div>
             </div>
         </main>
         <footer>
             <p><a href="index.html">Home</a></p>
             <p><a href="gallery.html">Gallery</a></p>
             <p><a href="contactus.html">Contact Us</a></p>
-            <p><a href="site-plan.html" target="_blank">Site Plan</a></p>
             <div class="social">
                 <h1>Follow Me</h1>
                 <a href="https://youtube.com" target="_blank">
@@ -68,6 +69,7 @@
                     <img src="images/instagram-icon.PNG" alt="instagram icon">
                 </a>
             </div>
+            <p><a href="site-plan.html" target="_blank">Site Plan</a></p>
             <p>Kuczco Studios &copy; 2022 - Paul Kuczak</p>
         </footer>
     </div>
