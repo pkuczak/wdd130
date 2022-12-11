@@ -1,16 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant&family=Cinzel:wght@500&display=swap');
 
 #content{
-    max-width: 1600px;
+    max-width: 1920px;
     margin: 0 auto;
 }
+h1, h2, h3, a{
+  font-family: Cinzel;
+}
+body{
+  font-family: Assistant;
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  width: 600px;
+  margin: -20px auto;
+}
+header{
+  margin: auto;
+  text-align: center;
+  background-color: #433E3F;
+  z-index: 2;
+  padding-bottom: 10px;
+}
+footer{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  /* margin: auto; */
+  text-align: center;
+  background-color: #433E3F;
+  z-index: 2;
+}
+footer a{
+  text-align: center;
+  text-decoration: none;
+  font-family: Cinzel;
+  color: white;
+}
+footer p{
+  color: white;
+}
+nav a{
+  text-align: center;
+  text-decoration: none;
+  font-family: Cinzel;
+  color: white;
+  padding: 40px;
+  font-size: 1.5em;
+}
+.social img{
+  width: 60px;
+  text-align: center;
+  display: fle;
+}
+
+
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1600px;
+  max-width: 100%;
   position: relative;
-  margin: auto;
+  margin: 0 auto;
+  z-index: -1;
 }
 
 /* Hide the images by default */
@@ -19,7 +73,7 @@
 }
 
 /* Next & previous buttons */
-.prev, .next {
+/* .prev, .next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -32,7 +86,7 @@
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-}
+} */
 
 /* Position the "next button" to the right */
 .next {
@@ -41,20 +95,21 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
+/* .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
+} */
 
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font: Cinzel;
-  font-size: 15px;
+  font-family: Assistant;
+  font-size: 20px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: 5px;
   width: 100%;
   text-align: center;
+  background-color: #433e3f57;
 }
 
 /* Number text (1/3 etc) */
@@ -64,6 +119,7 @@
   padding: 8px 12px;
   position: absolute;
   top: 0;
+  display: none;
 }
 
 /* The dots/bullets/indicators */
@@ -85,7 +141,7 @@
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
