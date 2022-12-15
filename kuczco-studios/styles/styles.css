@@ -161,6 +161,25 @@ h2{
   margin-top: 150px;
   margin-right: 50px;
 }
+#gallery-page{
+  text-align: center;
+}
+#gallery-page h1{
+  text-align: center;
+  color: #8E6E53;
+  font-size: 2.5em;
+  margin: 100px auto 0px;
+  text-align: center;
+  font-family: Cinzel;
+}
+#gallery-page div{
+  padding: 150px;
+  align-items: center;
+}
+#gallery-page img{
+  max-width: 580px;
+  vertical-align: middle;
+}
 
 
 /* Everything below this is for the Contact page, except for the slideshow css at the bottom */
